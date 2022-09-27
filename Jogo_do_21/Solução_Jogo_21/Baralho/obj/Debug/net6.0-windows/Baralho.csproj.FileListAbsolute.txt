@@ -1,0 +1,12 @@
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Jogo_do_21\Solucao_Jogo_21\Solução_Jogo_21\Baralho\bin\Debug\net6.0-windows\Baralho.deps.json
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Jogo_do_21\Solucao_Jogo_21\Solução_Jogo_21\Baralho\bin\Debug\net6.0-windows\Baralho.dll
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Jogo_do_21\Solucao_Jogo_21\Solução_Jogo_21\Baralho\bin\Debug\net6.0-windows\Baralho.pdb
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Jogo_do_21\Solucao_Jogo_21\Solução_Jogo_21\Baralho\obj\Debug\net6.0-windows\Baralho.csproj.AssemblyReference.cache
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Jogo_do_21\Solucao_Jogo_21\Solução_Jogo_21\Baralho\obj\Debug\net6.0-windows\Baralho.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Jogo_do_21\Solucao_Jogo_21\Solução_Jogo_21\Baralho\obj\Debug\net6.0-windows\Baralho.AssemblyInfoInputs.cache
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Jogo_do_21\Solucao_Jogo_21\Solução_Jogo_21\Baralho\obj\Debug\net6.0-windows\Baralho.AssemblyInfo.cs
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Jogo_do_21\Solucao_Jogo_21\Solução_Jogo_21\Baralho\obj\Debug\net6.0-windows\Baralho.csproj.CoreCompileInputs.cache
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Jogo_do_21\Solucao_Jogo_21\Solução_Jogo_21\Baralho\obj\Debug\net6.0-windows\Baralho.dll
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Jogo_do_21\Solucao_Jogo_21\Solução_Jogo_21\Baralho\obj\Debug\net6.0-windows\refint\Baralho.dll
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Jogo_do_21\Solucao_Jogo_21\Solução_Jogo_21\Baralho\obj\Debug\net6.0-windows\Baralho.pdb
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Jogo_do_21\Solucao_Jogo_21\Solução_Jogo_21\Baralho\obj\Debug\net6.0-windows\ref\Baralho.dll

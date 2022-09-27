@@ -1,0 +1,8 @@
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Aula 5 - While\Aula-5\aula while\obj\Debug\aula while.csproj.AssemblyReference.cache
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Aula 5 - While\Aula-5\aula while\obj\Debug\aula while.csproj.SuggestedBindingRedirects.cache
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Aula 5 - While\Aula-5\aula while\obj\Debug\aula while.csproj.CoreCompileInputs.cache
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Aula 5 - While\Aula-5\aula while\bin\Debug\aula while.exe.config
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Aula 5 - While\Aula-5\aula while\bin\Debug\aula while.exe
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Aula 5 - While\Aula-5\aula while\bin\Debug\aula while.pdb
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Aula 5 - While\Aula-5\aula while\obj\Debug\aula while.exe
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Aula 5 - While\Aula-5\aula while\obj\Debug\aula while.pdb

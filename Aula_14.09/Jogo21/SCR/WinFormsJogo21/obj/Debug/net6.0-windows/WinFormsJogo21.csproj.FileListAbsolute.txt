@@ -1,0 +1,17 @@
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Aula6\Jogo21\SCR\WinFormsJogo21\bin\Debug\net6.0-windows\WinFormsJogo21.exe
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Aula6\Jogo21\SCR\WinFormsJogo21\bin\Debug\net6.0-windows\WinFormsJogo21.deps.json
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Aula6\Jogo21\SCR\WinFormsJogo21\bin\Debug\net6.0-windows\WinFormsJogo21.runtimeconfig.json
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Aula6\Jogo21\SCR\WinFormsJogo21\bin\Debug\net6.0-windows\WinFormsJogo21.dll
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Aula6\Jogo21\SCR\WinFormsJogo21\bin\Debug\net6.0-windows\WinFormsJogo21.pdb
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Aula6\Jogo21\SCR\WinFormsJogo21\obj\Debug\net6.0-windows\WinFormsJogo21.csproj.AssemblyReference.cache
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Aula6\Jogo21\SCR\WinFormsJogo21\obj\Debug\net6.0-windows\WinFormsJogo21.csproj.GenerateResource.cache
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Aula6\Jogo21\SCR\WinFormsJogo21\obj\Debug\net6.0-windows\WinFormsJogo21.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Aula6\Jogo21\SCR\WinFormsJogo21\obj\Debug\net6.0-windows\WinFormsJogo21.AssemblyInfoInputs.cache
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Aula6\Jogo21\SCR\WinFormsJogo21\obj\Debug\net6.0-windows\WinFormsJogo21.AssemblyInfo.cs
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Aula6\Jogo21\SCR\WinFormsJogo21\obj\Debug\net6.0-windows\WinFormsJogo21.csproj.CoreCompileInputs.cache
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Aula6\Jogo21\SCR\WinFormsJogo21\obj\Debug\net6.0-windows\WinFormsJogo21.dll
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Aula6\Jogo21\SCR\WinFormsJogo21\obj\Debug\net6.0-windows\refint\WinFormsJogo21.dll
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Aula6\Jogo21\SCR\WinFormsJogo21\obj\Debug\net6.0-windows\WinFormsJogo21.pdb
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Aula6\Jogo21\SCR\WinFormsJogo21\obj\Debug\net6.0-windows\WinFormsJogo21.genruntimeconfig.cache
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Aula6\Jogo21\SCR\WinFormsJogo21\obj\Debug\net6.0-windows\ref\WinFormsJogo21.dll
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Aula6\Jogo21\SCR\WinFormsJogo21\obj\Debug\net6.0-windows\WinFormsJogo21.btnFinalizarRodada.resources

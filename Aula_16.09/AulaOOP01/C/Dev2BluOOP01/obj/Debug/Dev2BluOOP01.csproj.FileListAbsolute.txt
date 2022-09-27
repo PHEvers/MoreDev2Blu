@@ -1,0 +1,11 @@
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\AulaOOP01\C\Dev2BluOOP01\bin\Debug\Dev2BluOOP01.exe.config
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\AulaOOP01\C\Dev2BluOOP01\bin\Debug\Dev2BluOOP01.exe
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\AulaOOP01\C\Dev2BluOOP01\bin\Debug\Dev2BluOOP01.pdb
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\AulaOOP01\C\Dev2BluOOP01\obj\Debug\Dev2BluOOP01.csproj.AssemblyReference.cache
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\AulaOOP01\C\Dev2BluOOP01\obj\Debug\Dev2BluOOP01.csproj.SuggestedBindingRedirects.cache
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\AulaOOP01\C\Dev2BluOOP01\obj\Debug\Dev2BluOOP01.Form1.resources
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\AulaOOP01\C\Dev2BluOOP01\obj\Debug\Dev2BluOOP01.Properties.Resources.resources
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\AulaOOP01\C\Dev2BluOOP01\obj\Debug\Dev2BluOOP01.csproj.GenerateResource.cache
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\AulaOOP01\C\Dev2BluOOP01\obj\Debug\Dev2BluOOP01.csproj.CoreCompileInputs.cache
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\AulaOOP01\C\Dev2BluOOP01\obj\Debug\Dev2BluOOP01.exe
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\AulaOOP01\C\Dev2BluOOP01\obj\Debug\Dev2BluOOP01.pdb
