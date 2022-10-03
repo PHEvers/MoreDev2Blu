@@ -37,10 +37,12 @@ namespace Restaurant.main
 
                     Console.WriteLine("\n");
 
-                    Int32.TryParse(Console.ReadLine(), out Main_Menu_Option);
+                    Int32.TryParse(Console.ReadLine(), out Menu_Option);
                 }//menu primario/principal
 
-                switch (Main_Menu_Option)
+                switch (Menu_Option
+                    
+                    )
                 {
                     case 1:
                         Menu = new Client_R();
@@ -69,7 +71,7 @@ namespace Restaurant.main
                 }//executa oq foi selecionado no meu secundario
 
 
-            } while (Menu_Option != 0);
+            } while (Menu_Option == 0);
 
         }
     }
