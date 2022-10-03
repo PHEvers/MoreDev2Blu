@@ -94,8 +94,31 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
 
         public void Excluir()
         {
-            Fornecedor fornecedor = new Fornecedor();
-            Program.Mock.ListaFornecedores.Remove(fornecedor);
+            Console.Clear();
+            Fornecedor fornecedor;
+            int cdgFornecedor;
+            string confirmacao = " ";
+
+            Console.WriteLine("Informe o Fornecedor que Deseja Excluir:\n");
+            ListarFornecedoresByCodeAndName();
+
+            Int32.TryParse(Console.ReadLine(), out cdgFornecedor);
+
+            fornecedor = Program.Mock.ListaFornecedores.Find(p => p.CodigoFornecedor == cdgFornecedor);
+
+            Console.WriteLine("Deseja mesmo excluir: " + fornecedor.Nome + "?");
+            Console.WriteLine("01 = Sim");
+            Console.WriteLine("02 = Nao");
+            confirmacao = Console.ReadLine();
+            if (confirmacao == "01")
+            {
+                Program.Mock.ListaFornecedores.Remove(fornecedor);
+            }
+            else
+            {
+                Console.WriteLine("cancelado");
+                Console.ReadLine();
+            }
         }//ok
 
         public void Listar()

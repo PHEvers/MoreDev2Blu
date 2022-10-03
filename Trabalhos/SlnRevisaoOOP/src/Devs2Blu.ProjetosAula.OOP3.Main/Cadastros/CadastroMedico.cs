@@ -126,8 +126,31 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
 
         public void Excluir()
         {
-            Medico medico = new Medico();
-            Program.Mock.ListaMedicos.Remove(medico);
+            Console.Clear();
+            Medico medico;
+            int cdgMedico;
+            string confirmacao = " ";
+
+            Console.WriteLine("Informe o Medico que Deseja Excluir:\n");
+            ListarMedicosByCodeAndName();
+
+            Int32.TryParse(Console.ReadLine(), out cdgMedico);
+
+            medico = Program.Mock.ListaMedicos.Find(p => p.CodigoMedico == cdgMedico);
+
+            Console.WriteLine("Deseja mesmo excluir: " + medico.Nome + "?");
+            Console.WriteLine("01 = Sim");
+            Console.WriteLine("02 = Nao");
+            confirmacao = Console.ReadLine();
+            if (confirmacao == "01")
+            {
+                Program.Mock.ListaMedicos.Remove(medico);
+            }
+            else
+            {
+                Console.WriteLine("cancelado");
+                Console.ReadLine();
+            }
         }
 
         #endregion

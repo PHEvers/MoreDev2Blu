@@ -12,44 +12,55 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
     {
         private void ListarAgendaesByCodeAndName()
         {
-            foreach (Agenda consulta in Program.Mock.ListaAgendaes)
+            foreach (Agenda consulta in Program.Mock.ListaAgenda)
             {
-                Console.Write($"| {consulta.CodigoAgenda} - {consulta.Nome} ");
+                Console.Write($"| {consulta.CodigoAgenda} - {consulta.paciente} ");
             }
             Console.WriteLine("\n");
         }
-        public void Alterar()
+        /*public void Alterar()
         {
             Console.Clear();
             Agenda consulta;
             int codigoAgenda;
 
-            Console.WriteLine("Informe o Médico que Deseja Alterar:\n");
+            Console.WriteLine("Informe a connsulta que Deseja Alterar:\n");
             ListarAgendaesByCodeAndName();
 
             Int32.TryParse(Console.ReadLine(), out codigoAgenda);
 
-            consulta = Program.Mock.ListaAgendaes.Find(p => p.CodigoAgenda == codigoAgenda);
+            consulta = Program.Mock.ListaAgenda.Find(p => p.CodigoAgenda == codigoAgenda);
 
             string opcaoAlterar;
             bool alterar = true;
 
             do
             {
-                Console.WriteLine($"Agenda: {consulta.Codigo}/{consulta.CodigoAgenda} | Nome: {consulta.Nome} | CNPJ: {consulta.CGCCPF} | Tipo consulta: {consulta.TipoAgenda}");
+                Console.WriteLine($"Consulta:{consulta.CodigoAgenda} |Data: {consulta.Data}| Pasciente: {consulta.paciente.Nome} | Medico: {consulta.medico.Nome} | Recepcionista: {consulta.recepcionista.Nome} | Custo: {consulta.custo}");
                 Console.WriteLine("Qual campo deseja alterar?");
-                Console.WriteLine("01 - Nome | 02 - CNPJ | 03 - Tipo Agenda | 00 - SAIR");
+                Console.WriteLine("01 - Data | 02 - Paciente | 03 - Medico | 04 - Recepcionista | 05 - Custo | 00 - SAIR");
                 opcaoAlterar = Console.ReadLine();
 
                 switch (opcaoAlterar)
                 {
                     case "01":
-                        Console.WriteLine("Informe um novo nome:");
-                        consulta.Nome = Console.ReadLine();
+                        Console.WriteLine("Informe a data da consulta");
+                        string data = Console.ReadLine();
+                        DateTime dt;
+                        while (!DateTime.TryParseExact(data, "dd/MM/yyyy", null, System.Globalization.DateTimeStyles.None, out dt))
+                        {
+                            Console.WriteLine("Data invalida, tente novamente");
+                            data = Console.ReadLine();
+                        }
                         break;
                     case "02":
-                        Console.WriteLine("Informe um novo CNPJ:");
-                        consulta.CGCCPF = Console.ReadLine();
+                        Console.WriteLine("Informe novo paciente:\n");
+                        ListarPacientesByCodeAndName();
+
+                        Int32.TryParse(Console.ReadLine(), out cdgPaciente);
+
+                        paciente = Program.Mock.ListaPacientes.Find(p => p.CodigoPaciente == cdgPaciente);
+
                         break;
                     case "03":
                         Console.WriteLine("Informe um novo Tipo de consulta:");
@@ -67,20 +78,34 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
                 }
             } while (alterar);
 
-            var pact = Program.Mock.ListaAgendaes.Find(p => p.CodigoAgenda == consulta.CodigoAgenda);
-            int index = Program.Mock.ListaAgendaes.IndexOf(pact);
-            Program.Mock.ListaAgendaes[index] = consulta;
-        }
+            var pact = Program.Mock.ListaAgenda.Find(p => p.CodigoAgenda == consulta.CodigoAgenda);
+            int index = Program.Mock.ListaAgenda.IndexOf(pact);
+            Program.Mock.ListaAgenda[index] = consulta;
+        }*/
 
         public void Cadastrar()
         {
             Console.Clear();
-            Agenda consulta = new Agenda();
-            Console.WriteLine("Informe o ");
-            consulta.Nome = Console.ReadLine();
+            IMenuCadastro menuCadastros;
 
-            Console.WriteLine("Informe o CNPJ do Agenda");
-            consulta.CGCCPF = Console.ReadLine();
+            Agenda consulta = new Agenda();
+
+            Console.WriteLine("Informe a data da consulta");
+            string data = Console.ReadLine();
+            DateTime dt;
+            while (!DateTime.TryParseExact(data, "dd/MM/yyyy", null, System.Globalization.DateTimeStyles.None, out dt))
+            {
+                Console.WriteLine("Data invalida, tente novamente");
+                data = Console.ReadLine();
+            }
+
+            menuCadastros = CadastroPaciente();
+            Console.WriteLine("Informe o Paciente:\n");
+            ListarPacientesByCodeAndName();
+
+            Int32.TryParse(Console.ReadLine(), out cdgPaciente);
+
+            paciente = Program.Mock.ListaPacientes.Find(p => p.CodigoPaciente == cdgPaciente);
 
             Console.WriteLine("Informe o tipo do consulta");
             consulta.TipoAgenda = Console.ReadLine();
@@ -92,13 +117,13 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
             Program.Mock.ListaAgendaes.Add(consulta);
         }
 
-        public void Excluir()
+       /* public void Excluir()
         {
             Agenda consulta = new Agenda();
             Program.Mock.ListaAgendaes.Remove(consulta);
-        }
+        }*/
 
-        public void Listar()
+        /*public void Listar()
         {
             Console.Clear();
 
@@ -112,7 +137,7 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
                 Console.WriteLine("-----------------------------------------\n");
             }
             Console.ReadLine();
-        }
+        }*/
 
         public int MenuCadastro()
         {

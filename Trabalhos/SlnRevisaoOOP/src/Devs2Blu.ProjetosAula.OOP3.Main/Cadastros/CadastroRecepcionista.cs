@@ -1,4 +1,5 @@
-﻿using Devs2Blu.ProjetosAula.OOP3.Models.Model;
+﻿using Devs2Blu.ProjetosAula.OOP3.Main.Interfaces;
+using Devs2Blu.ProjetosAula.OOP3.Models.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
 {
-    public class CadastroRecepcionista
+    public class CadastroRecepcionista : IMenuCadastro
     {
         public CadastroRecepcionista()
         {
@@ -128,8 +129,32 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
 
         public void Excluir()
         {
-            Recepcionista recepcionista = new Recepcionista();
-            Program.Mock.ListaRecepcionistas.Remove(recepcionista);
+
+            Console.Clear();
+            Recepcionista recepcionista;
+            int cdgRecepcionista;
+            string confirmacao = " ";
+
+            Console.WriteLine("Informe o Recepcionista que Deseja Excluir:\n");
+            ListarRecepcionistaByCodeAndName();
+
+            Int32.TryParse(Console.ReadLine(), out cdgRecepcionista);
+
+            recepcionista = Program.Mock.ListaRecepcionistas.Find(p => p.CodigoRecepcionista == cdgRecepcionista);
+
+            Console.WriteLine("Deseja mesmo excluir: " + recepcionista.Nome + "?");
+            Console.WriteLine("01 = Sim");
+            Console.WriteLine("02 = Nao");
+            confirmacao = Console.ReadLine();
+            if (confirmacao == "01")
+            {
+                Program.Mock.ListaRecepcionistas.Remove(recepcionista);
+            }
+            else
+            {
+                Console.WriteLine("cancelado");
+                Console.ReadLine();
+            }
         }
     }
 }
