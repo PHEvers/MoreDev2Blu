@@ -56,13 +56,13 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
         {
             Console.Clear();
             Recepcionista recepcionista = new Recepcionista();
-            Console.WriteLine("Informe o Nome do Médico");
+            Console.WriteLine("Informe o Nome da Recepicionista");
             recepcionista.Nome = Console.ReadLine();
 
-            Console.WriteLine("Informe o CPF do Médico");
+            Console.WriteLine("Informe o CPF do Recepicionista");
             recepcionista.CGCCPF = Console.ReadLine();
 
-            Console.WriteLine("Informe o Setor do Médico");
+            Console.WriteLine("Informe o Setor do Recepicionista");
             recepcionista.Setor = Console.ReadLine();
 
             Random rd = new Random();

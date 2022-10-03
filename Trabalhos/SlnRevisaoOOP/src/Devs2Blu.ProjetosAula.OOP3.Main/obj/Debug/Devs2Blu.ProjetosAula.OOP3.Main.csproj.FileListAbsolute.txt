@@ -19,3 +19,14 @@ C:\Users\Predator\Desktop\Projetos C#\Dev2Blu_repositorio_Professor\cursocsharpd
 C:\Users\Predator\Desktop\Projetos C#\Dev2Blu_repositorio_Professor\cursocsharpdevs2blu22\AulaOOP3\Revisao\SlnRevisaoOOP\src\Devs2Blu.ProjetosAula.OOP3.Main\obj\Debug\Devs2Blu.ProjetosAula.OOP3.Main.csproj.CopyComplete
 C:\Users\Predator\Desktop\Projetos C#\Dev2Blu_repositorio_Professor\cursocsharpdevs2blu22\AulaOOP3\Revisao\SlnRevisaoOOP\src\Devs2Blu.ProjetosAula.OOP3.Main\obj\Debug\Devs2Blu.ProjetosAula.OOP3.Main.exe
 C:\Users\Predator\Desktop\Projetos C#\Dev2Blu_repositorio_Professor\cursocsharpdevs2blu22\AulaOOP3\Revisao\SlnRevisaoOOP\src\Devs2Blu.ProjetosAula.OOP3.Main\obj\Debug\Devs2Blu.ProjetosAula.OOP3.Main.pdb
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Trabalhos\SlnRevisaoOOP\src\Devs2Blu.ProjetosAula.OOP3.Main\bin\Debug\Devs2Blu.ProjetosAula.OOP3.Main.exe.config
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Trabalhos\SlnRevisaoOOP\src\Devs2Blu.ProjetosAula.OOP3.Main\bin\Debug\Devs2Blu.ProjetosAula.OOP3.Main.exe
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Trabalhos\SlnRevisaoOOP\src\Devs2Blu.ProjetosAula.OOP3.Main\bin\Debug\Devs2Blu.ProjetosAula.OOP3.Main.pdb
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Trabalhos\SlnRevisaoOOP\src\Devs2Blu.ProjetosAula.OOP3.Main\bin\Debug\Devs2Blu.ProjetosAula.OOP3.Models.dll
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Trabalhos\SlnRevisaoOOP\src\Devs2Blu.ProjetosAula.OOP3.Main\bin\Debug\Devs2Blu.ProjetosAula.OOP3.Models.pdb
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Trabalhos\SlnRevisaoOOP\src\Devs2Blu.ProjetosAula.OOP3.Main\obj\Debug\Devs2Blu.ProjetosAula.OOP3.Main.csproj.AssemblyReference.cache
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Trabalhos\SlnRevisaoOOP\src\Devs2Blu.ProjetosAula.OOP3.Main\obj\Debug\Devs2Blu.ProjetosAula.OOP3.Main.csproj.SuggestedBindingRedirects.cache
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Trabalhos\SlnRevisaoOOP\src\Devs2Blu.ProjetosAula.OOP3.Main\obj\Debug\Devs2Blu.ProjetosAula.OOP3.Main.csproj.CoreCompileInputs.cache
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Trabalhos\SlnRevisaoOOP\src\Devs2Blu.ProjetosAula.OOP3.Main\obj\Debug\Devs2Blu.ProjetosAula.OOP3.Main.csproj.CopyComplete
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Trabalhos\SlnRevisaoOOP\src\Devs2Blu.ProjetosAula.OOP3.Main\obj\Debug\Devs2Blu.ProjetosAula.OOP3.Main.exe
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Trabalhos\SlnRevisaoOOP\src\Devs2Blu.ProjetosAula.OOP3.Main\obj\Debug\Devs2Blu.ProjetosAula.OOP3.Main.pdb
