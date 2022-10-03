@@ -13,6 +13,7 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Utils
         public List<Medico> ListaMedicos { get; set; }
         public List<Recepcionista> ListaRecepcionistas { get; set; }
         public List<Fornecedor> ListaFornecedores { get; set; }
+        public List<Agenda> ListaAgenda { get; set; }
 
         public Mocks()
         {
@@ -20,6 +21,7 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Utils
             ListaMedicos = new List<Medico>();
             ListaRecepcionistas = new List<Recepcionista>();
             ListaFornecedores = new List<Fornecedor>();
+            ListaAgenda = new List<Agenda>();
 
             CargaMock();
         }

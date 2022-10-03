@@ -17,7 +17,7 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
                 Console.Write($"| {fornecedor.CodigoFornecedor} - {fornecedor.Nome} ");
             }
             Console.WriteLine("\n");
-        }
+        }//ok
         public void Alterar()
         {
             Console.Clear();
@@ -70,7 +70,7 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
             var pact = Program.Mock.ListaFornecedores.Find(p => p.CodigoFornecedor == fornecedor.CodigoFornecedor);
             int index = Program.Mock.ListaFornecedores.IndexOf(pact);
             Program.Mock.ListaFornecedores[index] = fornecedor;
-        }
+        }//ok
 
         public void Cadastrar()
         {
@@ -90,12 +90,13 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
             fornecedor.CodigoFornecedor = Int32.Parse($"{fornecedor.Codigo}{rd.Next(100, 999)}");
 
             Program.Mock.ListaFornecedores.Add(fornecedor);
-        }
+        }//ok
 
         public void Excluir()
         {
-
-        }
+            Fornecedor fornecedor = new Fornecedor();
+            Program.Mock.ListaFornecedores.Remove(fornecedor);
+        }//ok
 
         public void Listar()
         {
@@ -111,7 +112,7 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
                 Console.WriteLine("-----------------------------------------\n");
             }
             Console.ReadLine();
-        }
+        }//ok
 
         public int MenuCadastro()
         {
@@ -126,6 +127,6 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
             Console.WriteLine("----- 0- Sair -----");
             Int32.TryParse(Console.ReadLine(), out opcao);
             return opcao;
-        }
+        }//ok
     }
 }

@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cadastros\CadastroAgenda.cs" />
     <Compile Include="Cadastros\CadastroFornecedor.cs" />
     <Compile Include="Cadastros\CadastroMedico.cs" />
     <Compile Include="Cadastros\CadastroPaciente.cs" />
