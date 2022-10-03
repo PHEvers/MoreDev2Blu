@@ -17,8 +17,8 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
                 Console.Write($"| {consulta.CodigoAgenda} - {consulta.paciente} ");
             }
             Console.WriteLine("\n");
-        }
-        /*public void Alterar()
+        }//ok
+        public void Alterar()
         {
             Console.Clear();
             Agenda consulta;
@@ -33,6 +33,8 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
 
             string opcaoAlterar;
             bool alterar = true;
+
+            IMenuCadastro menuCadastro;
 
             do
             {
@@ -55,16 +57,39 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
                         break;
                     case "02":
                         Console.WriteLine("Informe novo paciente:\n");
-                        ListarPacientesByCodeAndName();
-
+                        menuCadastro = new CadastroPaciente();
+                        menuCadastro.Listar();
+                        int cdgPaciente;
                         Int32.TryParse(Console.ReadLine(), out cdgPaciente);
 
-                        paciente = Program.Mock.ListaPacientes.Find(p => p.CodigoPaciente == cdgPaciente);
+                        consulta.paciente = Program.Mock.ListaPacientes.Find(p => p.CodigoPaciente == cdgPaciente);
 
                         break;
                     case "03":
-                        Console.WriteLine("Informe um novo Tipo de consulta:");
-                        consulta.TipoAgenda = Console.ReadLine();
+                        Console.WriteLine("Informe novo medico:\n");
+                        menuCadastro = new CadastroMedico();
+                        menuCadastro.Listar();
+                        int cdgMedico;
+                        Int32.TryParse(Console.ReadLine(), out cdgMedico);
+
+                        consulta.medico = Program.Mock.ListaMedicos.Find(p => p.CodigoMedico == cdgMedico);
+
+                        break;
+                    case "04":
+                        Console.WriteLine("Informe nova recepcionista:\n");
+                        menuCadastro = new CadastroRecepcionista();
+                        menuCadastro.Listar();
+                        int cdgRecepcionista;
+                        Int32.TryParse(Console.ReadLine(), out cdgRecepcionista);
+
+                        consulta.recepcionista = Program.Mock.ListaRecepcionistas.Find(p => p.CodigoRecepcionista == cdgRecepcionista);
+
+                        break;
+                    case "05":
+                        Console.WriteLine("Informe novo custo: \n");
+                        int novo_custo;
+                        Int32.TryParse(Console.ReadLine(), out novo_custo);
+                        consulta.custo = novo_custo;
                         break;
                     default:
                         alterar = false;
@@ -81,8 +106,7 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
             var pact = Program.Mock.ListaAgenda.Find(p => p.CodigoAgenda == consulta.CodigoAgenda);
             int index = Program.Mock.ListaAgenda.IndexOf(pact);
             Program.Mock.ListaAgenda[index] = consulta;
-        }*/
-
+        }//ok
         public void Cadastrar()
         {
             Console.Clear();
@@ -99,45 +123,92 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
                 data = Console.ReadLine();
             }
 
-            menuCadastros = CadastroPaciente();
+            menuCadastros = new CadastroPaciente();
             Console.WriteLine("Informe o Paciente:\n");
-            ListarPacientesByCodeAndName();
+            menuCadastros.Listar();
 
+            Paciente paciente = new Paciente();
+            Int32 cdgPaciente;
             Int32.TryParse(Console.ReadLine(), out cdgPaciente);
 
-            paciente = Program.Mock.ListaPacientes.Find(p => p.CodigoPaciente == cdgPaciente);
+            consulta.paciente = Program.Mock.ListaPacientes.Find(p => p.CodigoPaciente == cdgPaciente);
 
-            Console.WriteLine("Informe o tipo do consulta");
-            consulta.TipoAgenda = Console.ReadLine();
+
+            menuCadastros = new CadastroMedico();
+            Console.WriteLine("Informe o Medico:\n");
+            menuCadastros.Listar();
+
+            Medico medico = new Medico();
+            Int32 cdgMedico;
+            Int32.TryParse(Console.ReadLine(), out cdgMedico);
+
+            consulta.medico = Program.Mock.ListaMedicos.Find(p => p.CodigoMedico == cdgMedico);
+            
+
+            menuCadastros = new CadastroRecepcionista();
+            Console.WriteLine("Informe a recepcionista:\n"); ;
+            menuCadastros.Listar();
+
+            Recepcionista recepcionista = new Recepcionista();
+            Int32 cdgRecepcionista;
+            Int32.TryParse(Console.ReadLine(), out cdgRecepcionista);
+
+            consulta.recepcionista = Program.Mock.ListaRecepcionistas.Find(p => p.CodigoRecepcionista == cdgRecepcionista);
 
             Random rd = new Random();
-            consulta.Codigo = rd.Next(1, 100) + DateTime.Now.Second;
-            consulta.CodigoAgenda = Int32.Parse($"{consulta.Codigo}{rd.Next(100, 999)}");
+            consulta.CodigoAgenda = rd.Next(1, 100) + DateTime.Now.Second;
+            consulta.CodigoAgenda = Int32.Parse($"{consulta.CodigoAgenda}{rd.Next(100, 999)}");
 
-            Program.Mock.ListaAgendaes.Add(consulta);
+            Program.Mock.ListaAgenda.Add(consulta);
+        }//ok
+
+        public void Excluir()
+        {
+
+            Console.Clear();
+            Agenda consulta;
+            int cdgConsulta;
+            string confirmacao = " ";
+
+            Console.WriteLine("Informe o Recepcionista que Deseja Excluir:\n");
+            ListarAgendaesByCodeAndName();
+
+            Int32.TryParse(Console.ReadLine(), out cdgConsulta);
+
+            consulta = Program.Mock.ListaAgenda.Find(p => p.CodigoAgenda == cdgConsulta);
+
+            Console.WriteLine("Deseja mesmo excluir: " + consulta.CodigoAgenda + "?");
+            Console.WriteLine("01 = Sim");
+            Console.WriteLine("02 = Nao");
+            confirmacao = Console.ReadLine();
+            if (confirmacao == "01")
+            {
+                Program.Mock.ListaAgenda.Remove(consulta);
+            }
+            else
+            {
+                Console.WriteLine("cancelado");
+                Console.ReadLine();
+            }
         }
 
-       /* public void Excluir()
-        {
-            Agenda consulta = new Agenda();
-            Program.Mock.ListaAgendaes.Remove(consulta);
-        }*/
-
-        /*public void Listar()
+        public void Listar()
         {
             Console.Clear();
 
-            foreach (Agenda consulta in Program.Mock.ListaAgendaes)
+            foreach (Agenda consulta in Program.Mock.ListaAgenda)
             {
                 Console.WriteLine("-----------------------------------------");
-                Console.WriteLine($"Médico: {consulta.CodigoAgenda}");
-                Console.WriteLine($"Nome: {consulta.Nome}");
-                Console.WriteLine($"CPF: {consulta.CGCCPF}");
-                Console.WriteLine($"Setor: {consulta.TipoAgenda}");
+                Console.WriteLine($"Codigo: {consulta.CodigoAgenda}");
+                Console.WriteLine($"Data: {consulta.Data}");
+                Console.WriteLine($"Nome do medico: {consulta.medico.Nome}");
+                Console.WriteLine($"Nome do Paciente: {consulta.paciente.Nome}");
+                Console.WriteLine($"Nome da recepcionista: {consulta.recepcionista.Nome}");
+                Console.WriteLine($"Custo: {consulta.custo}");
                 Console.WriteLine("-----------------------------------------\n");
             }
             Console.ReadLine();
-        }*/
+        }
 
         public int MenuCadastro()
         {
