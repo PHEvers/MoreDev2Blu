@@ -1,0 +1,11 @@
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Trabalhos\Restaurant\Restuarant_slt\Restaurant.main\bin\Debug\Restaurant.main.exe.config
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Trabalhos\Restaurant\Restuarant_slt\Restaurant.main\bin\Debug\Restaurant.main.exe
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Trabalhos\Restaurant\Restuarant_slt\Restaurant.main\bin\Debug\Restaurant.main.pdb
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Trabalhos\Restaurant\Restuarant_slt\Restaurant.main\obj\Debug\Restaurant.main.csproj.AssemblyReference.cache
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Trabalhos\Restaurant\Restuarant_slt\Restaurant.main\obj\Debug\Restaurant.main.csproj.SuggestedBindingRedirects.cache
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Trabalhos\Restaurant\Restuarant_slt\Restaurant.main\obj\Debug\Restaurant.main.csproj.CoreCompileInputs.cache
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Trabalhos\Restaurant\Restuarant_slt\Restaurant.main\obj\Debug\Restaurant.main.exe
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Trabalhos\Restaurant\Restuarant_slt\Restaurant.main\obj\Debug\Restaurant.main.pdb
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Trabalhos\Restaurant\Restuarant_slt\Restaurant.main\bin\Debug\Restaurant.model.dll
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Trabalhos\Restaurant\Restuarant_slt\Restaurant.main\bin\Debug\Restaurant.model.pdb
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Trabalhos\Restaurant\Restuarant_slt\Restaurant.main\obj\Debug\Restaurant.main.csproj.CopyComplete

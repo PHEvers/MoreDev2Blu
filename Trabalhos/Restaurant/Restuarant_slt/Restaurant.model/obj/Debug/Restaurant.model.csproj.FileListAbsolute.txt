@@ -1,0 +1,6 @@
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Trabalhos\Restaurant\Restuarant_slt\Restaurant.model\bin\Debug\Restaurant.model.dll
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Trabalhos\Restaurant\Restuarant_slt\Restaurant.model\bin\Debug\Restaurant.model.pdb
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Trabalhos\Restaurant\Restuarant_slt\Restaurant.model\obj\Debug\Restaurant.model.csproj.AssemblyReference.cache
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Trabalhos\Restaurant\Restuarant_slt\Restaurant.model\obj\Debug\Restaurant.model.csproj.CoreCompileInputs.cache
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Trabalhos\Restaurant\Restuarant_slt\Restaurant.model\obj\Debug\Restaurant.model.dll
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\Trabalhos\Restaurant\Restuarant_slt\Restaurant.model\obj\Debug\Restaurant.model.pdb
