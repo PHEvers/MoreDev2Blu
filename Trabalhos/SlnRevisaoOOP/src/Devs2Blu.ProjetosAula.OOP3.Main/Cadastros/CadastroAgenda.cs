@@ -124,9 +124,9 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
             }
 
             menuCadastros = new CadastroPaciente();
-            Console.WriteLine("Informe o Paciente:\n");
+            
             menuCadastros.Listar();
-
+            Console.WriteLine("Informe o Paciente:\n");
             Paciente paciente = new Paciente();
             Int32 cdgPaciente;
             Int32.TryParse(Console.ReadLine(), out cdgPaciente);
@@ -135,9 +135,9 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
 
 
             menuCadastros = new CadastroMedico();
-            Console.WriteLine("Informe o Medico:\n");
+            
             menuCadastros.Listar();
-
+            Console.WriteLine("Informe o Medico:\n");
             Medico medico = new Medico();
             Int32 cdgMedico;
             Int32.TryParse(Console.ReadLine(), out cdgMedico);
@@ -146,9 +146,9 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
             
 
             menuCadastros = new CadastroRecepcionista();
-            Console.WriteLine("Informe a recepcionista:\n"); ;
+            
             menuCadastros.Listar();
-
+            Console.WriteLine("Informe a recepcionista:\n");
             Recepcionista recepcionista = new Recepcionista();
             Int32 cdgRecepcionista;
             Int32.TryParse(Console.ReadLine(), out cdgRecepcionista);

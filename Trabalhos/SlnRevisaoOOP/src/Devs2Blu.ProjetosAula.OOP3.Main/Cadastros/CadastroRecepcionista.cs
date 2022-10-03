@@ -18,7 +18,7 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
         {
             foreach (Recepcionista recepcionista in Program.Mock.ListaRecepcionistas)
             {
-                Console.Write($"| {recepcionista.CodigoRecepcionista} - {recepcionista.Nome} ");
+                Console.Write($"| {recepcionista.CodigoRecepcionista}");
             }
             Console.WriteLine("\n");
         }
@@ -44,7 +44,7 @@ namespace Devs2Blu.ProjetosAula.OOP3.Main.Cadastros
             foreach (Recepcionista recepcionista in Program.Mock.ListaRecepcionistas)
             {
                 Console.WriteLine("-----------------------------------------");
-                Console.WriteLine($"Médico: {recepcionista.CodigoRecepcionista}");
+                Console.WriteLine($"Recepcionista: {recepcionista.CodigoRecepcionista}");
                 Console.WriteLine($"Nome: {recepcionista.Nome}");
                 Console.WriteLine($"CPF: {recepcionista.CGCCPF}");
                 Console.WriteLine($"Setor: {recepcionista.Setor}");
