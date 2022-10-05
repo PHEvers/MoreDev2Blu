@@ -1,0 +1,6 @@
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\10-Outubro\Class_04.10\slt_Registration_System\scr\Registration_System.Models\obj\Debug\Registration_System.Models.csproj.AssemblyReference.cache
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\10-Outubro\Class_04.10\slt_Registration_System\scr\Registration_System.Models\obj\Debug\Registration_System.Models.csproj.CoreCompileInputs.cache
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\10-Outubro\Class_04.10\slt_Registration_System\scr\Registration_System.Models\obj\Debug\Devs2Blu.ProjetosAula.OOP3.Models.dll
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\10-Outubro\Class_04.10\slt_Registration_System\scr\Registration_System.Models\obj\Debug\Devs2Blu.ProjetosAula.OOP3.Models.pdb
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\10-Outubro\Class_04.10\slt_Registration_System\scr\Registration_System.Models\bin\Debug\Devs2Blu.ProjetosAula.OOP3.Models.dll
+C:\Users\Predator\Desktop\Projetos C#\Dev2Blu\10-Outubro\Class_04.10\slt_Registration_System\scr\Registration_System.Models\bin\Debug\Devs2Blu.ProjetosAula.OOP3.Models.pdb
